@@ -1,0 +1,15 @@
+{
+    "info": {
+        "url": "",
+        "name": "sandbox.bulk.out",
+        "version": "0.1.0",
+        "curator": "Nox",
+        "description": "The main package for Bulk Out! sandbox assets.",
+        "tags": [
+            "sandbox",
+            "game",
+            "default"
+        ]
+    },
+    "dependencies": []
+}

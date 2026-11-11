@@ -1,0 +1,846 @@
+{
+    "contentInfo": {
+        "name": "woCam_preacher_curls_01",
+        "author": "",
+        "creationDate": "09/09/2024",
+        "lastEditDate": "09/09/2024",
+        "description": ""
+    },
+    "framesPerSecond": 30,
+    "timeCurve": {
+        "name": "",
+        "keyframes": [],
+        "keyframeStates": {
+            "preWrapMode": 0,
+            "postWrapMode": 0,
+            "keyframes": [],
+            "selectedKeys": []
+        }
+    },
+    "transformLinearCurves": [],
+    "transformCurves": [
+        {
+            "name": "game_camera",
+            "isBone": false,
+            "preWrapMode": 1,
+            "postWrapMode": 1,
+            "localPositionTimeCurve": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 0,
+                    "postWrapMode": 0,
+                    "keyframes": [],
+                    "selectedKeys": []
+                }
+            },
+            "localPositionCurveX": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": 1.6910674571990967,
+                            "inTangent": 0.0,
+                            "outTangent": -3.935309886932373,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.5,
+                            "value": -0.27658748626708987,
+                            "inTangent": -2.62435245513916,
+                            "outTangent": -2.62435245513916,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        },
+                        {
+                            "time": 0.8000000715255737,
+                            "value": -1.0501784086227418,
+                            "inTangent": -2.5786356925964357,
+                            "outTangent": 1.2262277603149415,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.9666668176651001,
+                            "value": -0.8458070158958435,
+                            "inTangent": 1.2262277603149415,
+                            "outTangent": 0.0,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 1.0,
+                            "value": -0.8458070158958435,
+                            "inTangent": 0.0,
+                            "outTangent": 0.0,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localPositionCurveY": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": 1.1685465574264527,
+                            "inTangent": 0.0,
+                            "outTangent": -0.5580098628997803,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.5,
+                            "value": 0.8895416259765625,
+                            "inTangent": -5.0292971565113478e-8,
+                            "outTangent": -5.0292971565113478e-8,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        },
+                        {
+                            "time": 0.8000000715255737,
+                            "value": 1.5323940515518189,
+                            "inTangent": 2.14284086227417,
+                            "outTangent": 1.0795156955718995,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.9666668176651001,
+                            "value": 1.7123134136199952,
+                            "inTangent": 1.0795156955718995,
+                            "outTangent": 0.0,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localPositionCurveZ": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": 2.462109088897705,
+                            "inTangent": 0.0,
+                            "outTangent": 3.7535953521728517,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.5,
+                            "value": 4.338906764984131,
+                            "inTangent": 7.308899796498736e-8,
+                            "outTangent": 7.308899796498736e-8,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        },
+                        {
+                            "time": 0.8000000715255737,
+                            "value": 2.5234642028808595,
+                            "inTangent": -6.051473617553711,
+                            "outTangent": -5.109551429748535,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.9666668176651001,
+                            "value": 1.6718719005584717,
+                            "inTangent": -5.109551429748535,
+                            "outTangent": 0.0,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localRotationTimeCurve": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 0,
+                    "postWrapMode": 0,
+                    "keyframes": [],
+                    "selectedKeys": []
+                }
+            },
+            "localRotationCurveX": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": 0.062467675656080249,
+                            "inTangent": 0.0,
+                            "outTangent": -0.12771935760974885,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.5,
+                            "value": -0.0013920017518103123,
+                            "inTangent": -0.3181169033050537,
+                            "outTangent": -0.3181169033050537,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        },
+                        {
+                            "time": 0.8000000715255737,
+                            "value": -0.2016231268644333,
+                            "inTangent": -0.6674368977546692,
+                            "outTangent": -0.2605333924293518,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.9666668176651001,
+                            "value": -0.24504537880420686,
+                            "inTangent": -0.2605333924293518,
+                            "outTangent": 0.0,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localRotationCurveY": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": -0.7341153621673584,
+                            "inTangent": 0.0,
+                            "outTangent": -0.5267736911773682,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.5,
+                            "value": -0.9975022077560425,
+                            "inTangent": -3.826778183224633e-8,
+                            "outTangent": -3.826778183224633e-8,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        },
+                        {
+                            "time": 0.8000000715255737,
+                            "value": -0.7007002234458923,
+                            "inTangent": 0.9893397092819214,
+                            "outTangent": 2.2820122241973879,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.9666668176651001,
+                            "value": -0.32036465406417849,
+                            "inTangent": 2.2820122241973879,
+                            "outTangent": 0.0,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localRotationCurveZ": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": 0.06817060708999634,
+                            "inTangent": 0.0,
+                            "outTangent": -0.09523209929466248,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.5,
+                            "value": 0.02055455930531025,
+                            "inTangent": -1.665231841307957e-9,
+                            "outTangent": -1.665231841307957e-9,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        },
+                        {
+                            "time": 0.8000000715255737,
+                            "value": 0.09109628945589066,
+                            "inTangent": 0.23513904213905335,
+                            "outTangent": -0.02952730655670166,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.9666668176651001,
+                            "value": 0.08617506921291352,
+                            "inTangent": -0.02952730655670166,
+                            "outTangent": 0.0,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localRotationCurveW": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": 0.6726999878883362,
+                            "inTangent": 0.0,
+                            "outTangent": -1.4805307388305665,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.5,
+                            "value": -0.06756538152694702,
+                            "inTangent": -1.6382942199707032,
+                            "outTangent": -1.6382942199707032,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        },
+                        {
+                            "time": 0.8000000715255737,
+                            "value": -0.6782837510108948,
+                            "inTangent": -2.0357275009155275,
+                            "outTangent": -1.396204948425293,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.9666668176651001,
+                            "value": -0.9109846949577332,
+                            "inTangent": -1.396204948425293,
+                            "outTangent": 0.0,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localScaleTimeCurve": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 0,
+                    "postWrapMode": 0,
+                    "keyframes": [],
+                    "selectedKeys": []
+                }
+            },
+            "localScaleCurveX": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 0,
+                    "postWrapMode": 0,
+                    "keyframes": [],
+                    "selectedKeys": []
+                }
+            },
+            "localScaleCurveY": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 0,
+                    "postWrapMode": 0,
+                    "keyframes": [],
+                    "selectedKeys": []
+                }
+            },
+            "localScaleCurveZ": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": 1.0,
+                            "inTangent": 0.0,
+                            "outTangent": 0.1697988510131836,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.5,
+                            "value": 1.0848994255065919,
+                            "inTangent": 0.0,
+                            "outTangent": 0.0,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        },
+                        {
+                            "time": 0.8000000715255737,
+                            "value": 1.0,
+                            "inTangent": -0.2829980254173279,
+                            "outTangent": 0.0,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        },
+                        {
+                            "time": 0.9666668176651001,
+                            "value": 1.0,
+                            "inTangent": 0.0,
+                            "outTangent": 0.0,
+                            "inWeight": 0.0,
+                            "outWeight": 0.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 1,
+                            "outTangentMode": 1
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            }
+        },
+        {
+            "name": "game_camera",
+            "isBone": false,
+            "preWrapMode": 1,
+            "postWrapMode": 1,
+            "localPositionTimeCurve": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 0,
+                    "postWrapMode": 0,
+                    "keyframes": [],
+                    "selectedKeys": []
+                }
+            },
+            "localPositionCurveX": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": -0.27658742666244509,
+                            "inTangent": 0.0,
+                            "outTangent": 0.0,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localPositionCurveY": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": 0.8895416259765625,
+                            "inTangent": 0.0,
+                            "outTangent": 0.0,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localPositionCurveZ": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": 4.338906764984131,
+                            "inTangent": 0.0,
+                            "outTangent": 0.0,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localRotationTimeCurve": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 0,
+                    "postWrapMode": 0,
+                    "keyframes": [],
+                    "selectedKeys": []
+                }
+            },
+            "localRotationCurveX": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": -0.0013920034980401397,
+                            "inTangent": 0.0,
+                            "outTangent": 0.0,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localRotationCurveY": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": -0.9975021481513977,
+                            "inTangent": 0.0,
+                            "outTangent": 0.0,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localRotationCurveZ": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": 0.0205545574426651,
+                            "inTangent": 0.0,
+                            "outTangent": 0.0,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localRotationCurveW": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": -0.06756538897752762,
+                            "inTangent": 0.0,
+                            "outTangent": 0.0,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localScaleTimeCurve": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 0,
+                    "postWrapMode": 0,
+                    "keyframes": [],
+                    "selectedKeys": []
+                }
+            },
+            "localScaleCurveX": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": 1.0,
+                            "inTangent": 0.0,
+                            "outTangent": 0.0,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localScaleCurveY": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": 1.0,
+                            "inTangent": 0.0,
+                            "outTangent": 0.0,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            },
+            "localScaleCurveZ": {
+                "name": "",
+                "keyframes": [],
+                "keyframeStates": {
+                    "preWrapMode": 1,
+                    "postWrapMode": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "value": 1.0848994255065919,
+                            "inTangent": 0.0,
+                            "outTangent": 0.0,
+                            "inWeight": 1.0,
+                            "outWeight": 1.0,
+                            "weightedMode": 0,
+                            "tangentMode": 0,
+                            "inTangentMode": 0,
+                            "outTangentMode": 0
+                        }
+                    ],
+                    "selectedKeys": []
+                }
+            }
+        }
+    ],
+    "jobCurveSampleRate": 16,
+    "propertyLinearCurves": [],
+    "propertyCurves": [],
+    "transformAnimationCurves": [
+        {
+            "infoBase": {
+                "isLinear": false,
+                "curveIndex": 1
+            },
+            "infoMain": {
+                "isLinear": false,
+                "curveIndex": 0
+            }
+        }
+    ],
+    "propertyAnimationCurves": [],
+    "events": []
+}

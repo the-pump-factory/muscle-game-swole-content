@@ -1,0 +1,31 @@
+{
+    "contentInfo": {
+        "name": "thumbnail.pull_ups",
+        "author": "Nox",
+        "creationDate": "10/14/2024",
+        "lastEditDate": "10/14/2024",
+        "description": ""
+    },
+    "width": 1467,
+    "height": 1081,
+    "format": 5,
+    "mipCount": 11,
+    "linear": false,
+    "compressed": false,
+    "hasSprite": true,
+    "sprite_rectX": 0.0,
+    "sprite_rectY": 0.0,
+    "sprite_rectWidth": 1467.0,
+    "sprite_rectHeight": 1081.0,
+    "sprite_pivotX": 0.5,
+    "sprite_pivotY": 0.5,
+    "sprite_pixelsPerUnit": 100.0,
+    "sprite_border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "encodedImageData": "",
+    "imagePath": "thumbnail.pull_ups.png"
+}

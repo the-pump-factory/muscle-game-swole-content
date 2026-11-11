@@ -1,0 +1,13 @@
+{
+    "info": {
+        "url": "",
+        "name": "demo.workouts.pack1",
+        "version": "0.1.0",
+        "curator": "Nox",
+        "description": "",
+        "tags": [
+            "workouts"
+        ]
+    },
+    "dependencies": []
+}

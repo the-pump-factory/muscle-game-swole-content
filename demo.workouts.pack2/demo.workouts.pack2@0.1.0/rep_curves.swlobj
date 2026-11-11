@@ -1,0 +1,114 @@
+{
+    "contentInfo": {
+        "name": "rep_curves",
+        "author": "Nox",
+        "creationDate": "11/16/2024",
+        "lastEditDate": "11/16/2024",
+        "description": ""
+    },
+    "previewTexturePath": "",
+    "previewTextureWidth": 0,
+    "previewTextureHeight": 0,
+    "previewTextureFormat": 0,
+    "encodedPreviewTextureData": "",
+    "projectSettings": {
+        "cameraPosition": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": -10.0
+        },
+        "cameraRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+        },
+        "selectedCollection": -1,
+        "importedCollections": [],
+        "transformGizmoState": 1,
+        "selectedObjects": [],
+        "objectStates": [],
+        "windowStates": [
+            {
+                "id": "curves_menu",
+                "visible": false,
+                "positionInCanvas": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.0
+                },
+                "width": 400.0,
+                "height": 400.0,
+                "dataIntA": 0,
+                "dataStringA": ""
+            },
+            {
+                "id": "bez_curve_editor",
+                "visible": false,
+                "positionInCanvas": {
+                    "x": 0.553629457950592,
+                    "y": 0.5021668672561646,
+                    "z": 0.0
+                },
+                "width": 1029.4000244140625,
+                "height": 418.20001220703127,
+                "dataIntA": 0,
+                "dataStringA": ""
+            }
+        ]
+    },
+    "curves": [
+        {
+            "name": "repCurve_machine_crunches",
+            "curveType": 0,
+            "points": [
+                {
+                    "x": 0.5,
+                    "y": 0.9999998211860657,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.5267630815505981,
+                    "y": 0.7466387748718262,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.48497137427330019,
+                    "y": 0.2958184778690338,
+                    "z": 0.0
+                },
+                {
+                    "x": 0.5,
+                    "y": -5.192583785174065e-8,
+                    "z": 0.0
+                }
+            ]
+        }
+    ],
+    "animationCurves": [],
+    "script": {
+        "source_OnLoadExperience": "",
+        "source_OnUnloadExperience": "",
+        "source_OnBeginExperience": "",
+        "source_OnEndExperience": "",
+        "source_OnRestartExperience": "",
+        "source_OnSaveProgress": "",
+        "source_OnLoadProgress": "",
+        "source_OnInitialize": "",
+        "source_OnEarlyUpdate": "",
+        "source_OnUpdate": "",
+        "source_OnLateUpdate": "",
+        "source_OnFixedUpdate": "",
+        "source_OnEnable": "",
+        "source_OnDisable": "",
+        "source_OnDestroy": "",
+        "source_OnCollisionEnter": "",
+        "source_OnCollisionStay": "",
+        "source_OnCollisionExit": "",
+        "source_OnTriggerEnter": "",
+        "source_OnTriggerStay": "",
+        "source_OnTriggerExit": "",
+        "source_OnInteract": ""
+    },
+    "spawnGroups": []
+}

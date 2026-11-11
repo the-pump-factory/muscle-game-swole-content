@@ -1,0 +1,1418 @@
+{
+    "contentInfo": {
+        "name": "workout.leg_press",
+        "author": "Nox",
+        "creationDate": "",
+        "lastEditDate": "",
+        "description": ""
+    },
+    "referenceWorkout": "preacher_curls",
+    "defaultAssetPackage": "candy.workout.demo",
+    "animations": [
+        {
+            "binding": {
+                "id": "rest"
+            },
+            "settings": {
+                "name": "woBase_leg_press",
+                "displayName": "",
+                "package": "",
+                "animatorIndex": 0,
+                "updateAfterIndex": false,
+                "indexToUpdateAfter": 0,
+                "baseMix": 1.0,
+                "speed": 1.0,
+                "loop": true,
+                "startTimeNormalized": 0.0,
+                "usePauseTime": false,
+                "pauseTimeNormalized": 0.0,
+                "fadeIn": 0.0,
+                "fadeOut": 0.0,
+                "nullifyingDependencies": []
+            }
+        },
+        {
+            "binding": {
+                "id": "base_machine"
+            },
+            "settings": {
+                "name": "bknrBase_leg_press",
+                "displayName": "",
+                "package": "",
+                "animatorIndex": 1,
+                "updateAfterIndex": false,
+                "indexToUpdateAfter": 0,
+                "baseMix": 1.0,
+                "speed": 0.0,
+                "loop": false,
+                "startTimeNormalized": 0.9900000095367432,
+                "usePauseTime": true,
+                "pauseTimeNormalized": 0.9900000095367432,
+                "fadeIn": 0.0,
+                "fadeOut": 0.0,
+                "nullifyingDependencies": []
+            }
+        },
+        {
+            "binding": {
+                "id": "rep"
+            },
+            "settings": {
+                "name": "woRep_leg_press",
+                "displayName": "",
+                "package": "",
+                "animatorIndex": 0,
+                "updateAfterIndex": false,
+                "indexToUpdateAfter": 0,
+                "baseMix": 1.0,
+                "speed": 1.0,
+                "loop": false,
+                "startTimeNormalized": 0.0,
+                "usePauseTime": false,
+                "pauseTimeNormalized": 0.0,
+                "fadeIn": 0.0,
+                "fadeOut": 0.0,
+                "nullifyingDependencies": []
+            }
+        },
+        {
+            "binding": {
+                "id": "rep_machine"
+            },
+            "settings": {
+                "name": "bknrRep_leg_press",
+                "displayName": "",
+                "package": "",
+                "animatorIndex": 1,
+                "updateAfterIndex": false,
+                "indexToUpdateAfter": 0,
+                "baseMix": 1.0,
+                "speed": 1.0,
+                "loop": false,
+                "startTimeNormalized": 0.0,
+                "usePauseTime": false,
+                "pauseTimeNormalized": 0.0,
+                "fadeIn": 0.0,
+                "fadeOut": 0.0,
+                "nullifyingDependencies": []
+            }
+        },
+        {
+            "binding": {
+                "id": "rep_cam_base"
+            },
+            "settings": {
+                "name": "woCamBase_leg_press",
+                "displayName": "",
+                "package": "",
+                "animatorIndex": 2,
+                "updateAfterIndex": false,
+                "indexToUpdateAfter": 0,
+                "baseMix": 1.0,
+                "speed": 1.0,
+                "loop": false,
+                "startTimeNormalized": 0.0,
+                "usePauseTime": false,
+                "pauseTimeNormalized": 0.0,
+                "fadeIn": 0.0,
+                "fadeOut": 0.0,
+                "nullifyingDependencies": []
+            }
+        },
+        {
+            "binding": {
+                "id": "rep_cam_X"
+            },
+            "settings": {
+                "name": "woCamX_leg_press",
+                "displayName": "",
+                "package": "",
+                "animatorIndex": 2,
+                "updateAfterIndex": false,
+                "indexToUpdateAfter": 0,
+                "baseMix": 1.0,
+                "speed": 1.0,
+                "loop": false,
+                "startTimeNormalized": 0.0,
+                "usePauseTime": false,
+                "pauseTimeNormalized": 0.0,
+                "fadeIn": 0.0,
+                "fadeOut": 0.0,
+                "nullifyingDependencies": []
+            }
+        }
+    ],
+    "sounds": [],
+    "tasks": [
+        {
+            "binding": {
+                "id": "rest"
+            },
+            "settings": {
+                "name": "rest",
+                "animsToPlay": [
+                    {
+                        "assetIndex": 0,
+                        "startTime": 0.0,
+                        "stopTime": 0.0,
+                        "overrideLocalStartTimeNormalized": false,
+                        "localStartTimeNormalized": 0.0,
+                        "overrideLocalSpeed": false,
+                        "localSpeed": 1.0,
+                        "mix": 1.0,
+                        "fadeIn": 0.0,
+                        "fadeOut": 0.0,
+                        "dontNullify": false,
+                        "dontNullifyOther": false,
+                        "mixDependencies": []
+                    },
+                    {
+                        "assetIndex": 1,
+                        "startTime": 0.0,
+                        "stopTime": 0.0,
+                        "overrideLocalStartTimeNormalized": false,
+                        "localStartTimeNormalized": 0.0,
+                        "overrideLocalSpeed": false,
+                        "localSpeed": 1.0,
+                        "mix": 1.0,
+                        "fadeIn": 0.0,
+                        "fadeOut": 0.0,
+                        "dontNullify": false,
+                        "dontNullifyOther": false,
+                        "mixDependencies": []
+                    }
+                ],
+                "soundsToPlay": [],
+                "loop": true,
+                "speed": 1.0,
+                "animationSpeed": 1.0,
+                "soundVolume": 1.0,
+                "soundPitch": 1.0,
+                "mix": 1.0,
+                "fadeIn": 0.0,
+                "fadeOut": 0.0,
+                "playOnStart": false,
+                "syncAnimationTimeWithTaskTime": false,
+                "autoCalculateEndTime": true,
+                "autoCalculationEndTimeScale": 1.0,
+                "endTime": 0.0,
+                "startFadeTime": 0.0,
+                "stopFadeTime": 0.0,
+                "hasLateDependencies": false,
+                "dependencies": []
+            }
+        },
+        {
+            "binding": {
+                "id": "rep"
+            },
+            "settings": {
+                "name": "",
+                "animsToPlay": [
+                    {
+                        "assetIndex": 2,
+                        "startTime": 0.0,
+                        "stopTime": 0.0,
+                        "overrideLocalStartTimeNormalized": false,
+                        "localStartTimeNormalized": 0.0,
+                        "overrideLocalSpeed": false,
+                        "localSpeed": 0.0,
+                        "mix": 1.0,
+                        "fadeIn": 0.0,
+                        "fadeOut": 0.0,
+                        "dontNullify": false,
+                        "dontNullifyOther": false,
+                        "mixDependencies": []
+                    },
+                    {
+                        "assetIndex": 3,
+                        "startTime": 0.0,
+                        "stopTime": 0.0,
+                        "overrideLocalStartTimeNormalized": false,
+                        "localStartTimeNormalized": 0.0,
+                        "overrideLocalSpeed": false,
+                        "localSpeed": 0.0,
+                        "mix": 1.0,
+                        "fadeIn": 0.0,
+                        "fadeOut": 0.0,
+                        "dontNullify": false,
+                        "dontNullifyOther": false,
+                        "mixDependencies": []
+                    }
+                ],
+                "soundsToPlay": [],
+                "loop": false,
+                "speed": 0.0,
+                "animationSpeed": 1.0,
+                "soundVolume": 1.0,
+                "soundPitch": 1.0,
+                "mix": 1.0,
+                "fadeIn": 0.0,
+                "fadeOut": 0.0,
+                "playOnStart": false,
+                "syncAnimationTimeWithTaskTime": false,
+                "autoCalculateEndTime": true,
+                "autoCalculationEndTimeScale": 1.0,
+                "endTime": 1.0,
+                "startFadeTime": 0.0,
+                "stopFadeTime": 0.0,
+                "hasLateDependencies": false,
+                "dependencies": []
+            }
+        },
+        {
+            "binding": {
+                "id": "rep_cam_base"
+            },
+            "settings": {
+                "name": "",
+                "animsToPlay": [
+                    {
+                        "assetIndex": 4,
+                        "startTime": 0.0,
+                        "stopTime": 0.0,
+                        "overrideLocalStartTimeNormalized": false,
+                        "localStartTimeNormalized": 0.0,
+                        "overrideLocalSpeed": false,
+                        "localSpeed": 0.0,
+                        "mix": 1.0,
+                        "fadeIn": 0.0,
+                        "fadeOut": 0.0,
+                        "dontNullify": false,
+                        "dontNullifyOther": false,
+                        "mixDependencies": []
+                    }
+                ],
+                "soundsToPlay": [],
+                "loop": true,
+                "speed": 1.0,
+                "animationSpeed": 1.0,
+                "soundVolume": 1.0,
+                "soundPitch": 1.0,
+                "mix": 1.0,
+                "fadeIn": 0.0,
+                "fadeOut": 0.0,
+                "playOnStart": false,
+                "syncAnimationTimeWithTaskTime": false,
+                "autoCalculateEndTime": true,
+                "autoCalculationEndTimeScale": 1.0,
+                "endTime": 0.0,
+                "startFadeTime": 0.0,
+                "stopFadeTime": 0.0,
+                "hasLateDependencies": false,
+                "dependencies": []
+            }
+        },
+        {
+            "binding": {
+                "id": "rep_cam_X"
+            },
+            "settings": {
+                "name": "",
+                "animsToPlay": [
+                    {
+                        "assetIndex": 5,
+                        "startTime": 0.0,
+                        "stopTime": 0.0,
+                        "overrideLocalStartTimeNormalized": false,
+                        "localStartTimeNormalized": 0.0,
+                        "overrideLocalSpeed": false,
+                        "localSpeed": 0.0,
+                        "mix": 1.0,
+                        "fadeIn": 0.0,
+                        "fadeOut": 0.0,
+                        "dontNullify": false,
+                        "dontNullifyOther": false,
+                        "mixDependencies": []
+                    }
+                ],
+                "soundsToPlay": [],
+                "loop": false,
+                "speed": 0.0,
+                "animationSpeed": 1.0,
+                "soundVolume": 1.0,
+                "soundPitch": 1.0,
+                "mix": 1.0,
+                "fadeIn": 0.0,
+                "fadeOut": 0.0,
+                "playOnStart": false,
+                "syncAnimationTimeWithTaskTime": false,
+                "autoCalculateEndTime": true,
+                "autoCalculationEndTimeScale": 1.0,
+                "endTime": 0.0,
+                "startFadeTime": 0.0,
+                "stopFadeTime": 0.0,
+                "hasLateDependencies": false,
+                "dependencies": []
+            }
+        }
+    ],
+    "parameters": {
+        "displayName": "Leg Press",
+        "thumbnail": "",
+        "weightSource": {
+            "doOverride": false,
+            "value": ""
+        },
+        "repCurveTransformState": {
+            "doOverride": false,
+            "value": {
+                "transformSnapshot": {
+                    "isLocalSpace": false,
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "eulerRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "scale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "pivot": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "setAnchoredPosition": false,
+                "anchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "setOffsetMin": false,
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "setOffsetMax": false,
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        },
+        "weightDisplayTransformState": {
+            "doOverride": false,
+            "value": {
+                "transformSnapshot": {
+                    "isLocalSpace": false,
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "eulerRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "scale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "pivot": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "setAnchoredPosition": false,
+                "anchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "setOffsetMin": false,
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "setOffsetMax": false,
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        },
+        "totalRepCountDisplayTransformState": {
+            "doOverride": false,
+            "value": {
+                "transformSnapshot": {
+                    "isLocalSpace": false,
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "eulerRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "scale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "pivot": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "setAnchoredPosition": false,
+                "anchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "setOffsetMin": false,
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "setOffsetMax": false,
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        },
+        "workoutRepCountDisplayTransformState": {
+            "doOverride": false,
+            "value": {
+                "transformSnapshot": {
+                    "isLocalSpace": false,
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "eulerRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "scale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "pivot": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "setAnchoredPosition": false,
+                "anchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "setOffsetMin": false,
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "setOffsetMax": false,
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        },
+        "burnOutDisplayTransformState": {
+            "doOverride": false,
+            "value": {
+                "transformSnapshot": {
+                    "isLocalSpace": false,
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "eulerRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "scale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "pivot": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "setAnchoredPosition": false,
+                "anchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "setOffsetMin": false,
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "setOffsetMax": false,
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        },
+        "energyDisplayTransformState": {
+            "doOverride": false,
+            "value": {
+                "transformSnapshot": {
+                    "isLocalSpace": false,
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "eulerRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "scale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "pivot": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "setAnchoredPosition": false,
+                "anchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "setOffsetMin": false,
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "setOffsetMax": false,
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        },
+        "hideBench": {
+            "doOverride": false,
+            "value": false
+        },
+        "hidePecDeck": {
+            "doOverride": false,
+            "value": false
+        },
+        "hidePulldownBar": {
+            "doOverride": false,
+            "value": false
+        },
+        "foldBarbell": {
+            "doOverride": false,
+            "value": false
+        },
+        "hideBarbell": {
+            "doOverride": false,
+            "value": false
+        },
+        "headTrembleMax": {
+            "doOverride": true,
+            "value": 0.0
+        },
+        "leftArmTrembleMax": {
+            "doOverride": true,
+            "value": 0.30000001192092898
+        },
+        "rightArmTrembleMax": {
+            "doOverride": true,
+            "value": 0.30000001192092898
+        },
+        "leftLegTrembleMax": {
+            "doOverride": true,
+            "value": 0.6000000238418579
+        },
+        "rightLegTrembleMax": {
+            "doOverride": true,
+            "value": 0.6000000238418579
+        },
+        "overrideRepCurve": {
+            "doOverride": false
+        },
+        "repCurve": {
+            "package": "",
+            "creation": "",
+            "curveName": ""
+        },
+        "invertRepAssist": {
+            "doOverride": false,
+            "value": false
+        },
+        "repMomentumAcceleration": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "repSpeedMax": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "repSpeedMin": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "repSpeedBurnOut": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "maxRepGravity": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "repAlignmentGravityStart": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "staminaGravityFactorExp": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "repCompletionMaxStaminaRefund": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "perfectRepMinAccuracy": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "perfectRepStaminaRefundMultiplier": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "repStartPreventionStaminaThreshold": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "softWeightMaximum": {
+            "doOverride": true,
+            "value": 900
+        },
+        "weightMinimum": {
+            "doOverride": true,
+            "value": 120
+        },
+        "staminaPerSecond": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "staminaRecoveryPerSecond": {
+            "doOverride": true,
+            "value": 0.09000000357627869
+        },
+        "staminaRecoveryDelay": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "staminaRecoveryRestBonusMultiplier": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "energyPerSecond": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "energyRecoveryPerSecond": {
+            "doOverride": true,
+            "value": 0.009999999776482582
+        },
+        "energyRecoveryDelay": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "energyRecoveryRestBonusMultiplier": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "growthRate": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "fullRepGrowthBonus": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "burnOutGrowthMultiplier": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "burnOutRepGrowthBonusMultiplier": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "burnOutGrowthBonusFalloff": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "repMaxHoldTime": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "repHoldBonusDifficultyFalloff": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "flexStartPoint": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "flexHardStartThreshold": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "flexProgressSpeed": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "flexHardDecay": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "flexHardDecayEXP": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "flexHardInputAddRatio": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "flexRepProgressMapping": {
+            "doOverride": false,
+            "value": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        "flexInputAxis": {
+            "doOverride": false,
+            "value": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        "flexLocalTargetMuscles": {
+            "doOverride": false,
+            "value": []
+        },
+        "restTask": {
+            "doOverride": true,
+            "taskId": "rest"
+        },
+        "restTiredBlendTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "restToRepTask": {
+            "doOverride": true,
+            "taskId": ""
+        },
+        "repToRestTask": {
+            "doOverride": true,
+            "taskId": ""
+        },
+        "restOffsetTasks": {
+            "doOverride": true,
+            "taskIds": []
+        },
+        "repBaseTask": {
+            "doOverride": true,
+            "taskId": ""
+        },
+        "repAddTask": {
+            "doOverride": true,
+            "taskId": "rep"
+        },
+        "repStruggleTask": {
+            "doOverride": true,
+            "taskId": "copyNative:tricep_pushdown"
+        },
+        "repStruggleMix": {
+            "doOverride": true,
+            "value": 0.6000000238418579
+        },
+        "repExhaustionTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "repOffsetTasks": {
+            "doOverride": true,
+            "taskIds": []
+        },
+        "flexBaseTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "flexControlTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "restToFlexTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "flexToRestTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "flexOffsetTasks": {
+            "doOverride": true,
+            "taskIds": []
+        },
+        "breatheLightTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "breatheMedTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "breatheHeavyTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "restCamBaseTask": {
+            "doOverride": true,
+            "taskId": "rep_cam_base"
+        },
+        "restCamXTask": {
+            "doOverride": true,
+            "taskId": "rep_cam_X"
+        },
+        "restCamYTask": {
+            "doOverride": true,
+            "taskId": "copyNative:shoulder_press"
+        },
+        "repCamBaseTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "repCamXTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "repCamYTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "flexCamBaseTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "flexCamXTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "flexCamYTask": {
+            "doOverride": false,
+            "taskId": ""
+        },
+        "restCamSpeedX": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "restCamSpeedY": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "restCamXStartPos": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "restCamYStartPos": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "restCamAllowWrapX": {
+            "doOverride": true,
+            "value": true
+        },
+        "restCamAllowWrapY": {
+            "doOverride": false,
+            "value": false
+        },
+        "repCamSpeedX": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "repCamSpeedY": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "repCamTransitionMappingX": {
+            "doOverride": false,
+            "value": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        "repCamTransitionMappingY": {
+            "doOverride": false,
+            "value": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        "repCamAllowWrapX": {
+            "doOverride": false,
+            "value": false
+        },
+        "repCamAllowWrapY": {
+            "doOverride": false,
+            "value": false
+        },
+        "flexCamSpeedX": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "flexCamSpeedY": {
+            "doOverride": false,
+            "value": 0.0
+        },
+        "flexCamTransitionMappingX": {
+            "doOverride": false,
+            "value": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        "flexCamTransitionMappingY": {
+            "doOverride": false,
+            "value": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        "flexCamAllowWrapX": {
+            "doOverride": false,
+            "value": false
+        },
+        "flexCamAllowWrapY": {
+            "doOverride": false,
+            "value": false
+        },
+        "overrideTargetMuscles": {
+            "doOverride": true
+        },
+        "mainMuscleL": 0,
+        "mainMuscleR": 1,
+        "targetMuscles": [
+            {
+                "muscleGroup": 38,
+                "sideOfBody": 1,
+                "liftRatio": 0.5,
+                "growthRatio": 1.0,
+                "pumpRatio": 1.0,
+                "mainMusclePumpMix": 0.0
+            },
+            {
+                "muscleGroup": 39,
+                "sideOfBody": 2,
+                "liftRatio": 0.5,
+                "growthRatio": 1.0,
+                "pumpRatio": 1.0,
+                "mainMusclePumpMix": 0.0
+            },
+            {
+                "muscleGroup": 42,
+                "sideOfBody": 1,
+                "liftRatio": 0.4000000059604645,
+                "growthRatio": 0.8999999761581421,
+                "pumpRatio": 1.0,
+                "mainMusclePumpMix": 0.0
+            },
+            {
+                "muscleGroup": 43,
+                "sideOfBody": 2,
+                "liftRatio": 0.4000000059604645,
+                "growthRatio": 0.8999999761581421,
+                "pumpRatio": 1.0,
+                "mainMusclePumpMix": 0.0
+            },
+            {
+                "muscleGroup": 40,
+                "sideOfBody": 1,
+                "liftRatio": 0.44999998807907107,
+                "growthRatio": 1.0,
+                "pumpRatio": 1.0,
+                "mainMusclePumpMix": 0.0
+            },
+            {
+                "muscleGroup": 41,
+                "sideOfBody": 2,
+                "liftRatio": 0.44999998807907107,
+                "growthRatio": 1.0,
+                "pumpRatio": 1.0,
+                "mainMusclePumpMix": 0.0
+            },
+            {
+                "muscleGroup": 44,
+                "sideOfBody": 1,
+                "liftRatio": 0.44999998807907107,
+                "growthRatio": 1.0,
+                "pumpRatio": 1.0,
+                "mainMusclePumpMix": 0.0
+            },
+            {
+                "muscleGroup": 45,
+                "sideOfBody": 2,
+                "liftRatio": 0.44999998807907107,
+                "growthRatio": 1.0,
+                "pumpRatio": 1.0,
+                "mainMusclePumpMix": 0.0
+            },
+            {
+                "muscleGroup": 13,
+                "sideOfBody": 1,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.3499999940395355,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 14,
+                "sideOfBody": 2,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.3499999940395355,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 0,
+                "sideOfBody": 1,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.3499999940395355,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 1,
+                "sideOfBody": 2,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.3499999940395355,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 2,
+                "sideOfBody": 1,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.3499999940395355,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 3,
+                "sideOfBody": 2,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.3499999940395355,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 4,
+                "sideOfBody": 1,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.3499999940395355,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 5,
+                "sideOfBody": 2,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.3499999940395355,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 6,
+                "sideOfBody": 1,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.3499999940395355,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 7,
+                "sideOfBody": 2,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.3499999940395355,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 11,
+                "sideOfBody": 1,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.25,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 12,
+                "sideOfBody": 2,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.25,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 10,
+                "sideOfBody": 0,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.25,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 48,
+                "sideOfBody": 0,
+                "liftRatio": 0.05000000074505806,
+                "growthRatio": 0.10000000149011612,
+                "pumpRatio": 0.8500000238418579,
+                "mainMusclePumpMix": 1.0
+            },
+            {
+                "muscleGroup": 49,
+                "sideOfBody": 0,
+                "liftRatio": 0.05000000074505806,
+                "growthRatio": 0.10000000149011612,
+                "pumpRatio": 0.8500000238418579,
+                "mainMusclePumpMix": 1.0
+            },
+            {
+                "muscleGroup": 46,
+                "sideOfBody": 0,
+                "liftRatio": 0.15000000596046449,
+                "growthRatio": 0.30000001192092898,
+                "pumpRatio": 0.5,
+                "mainMusclePumpMix": 0.5
+            },
+            {
+                "muscleGroup": 47,
+                "sideOfBody": 0,
+                "liftRatio": 0.15000000596046449,
+                "growthRatio": 0.30000001192092898,
+                "pumpRatio": 0.5,
+                "mainMusclePumpMix": 0.5
+            },
+            {
+                "muscleGroup": 31,
+                "sideOfBody": 0,
+                "liftRatio": 0.0,
+                "growthRatio": 0.10000000149011612,
+                "pumpRatio": 0.30000001192092898,
+                "mainMusclePumpMix": 0.6000000238418579
+            },
+            {
+                "muscleGroup": 50,
+                "sideOfBody": 1,
+                "liftRatio": 0.25,
+                "growthRatio": 0.4000000059604645,
+                "pumpRatio": 0.699999988079071,
+                "mainMusclePumpMix": 0.4000000059604645
+            },
+            {
+                "muscleGroup": 51,
+                "sideOfBody": 2,
+                "liftRatio": 0.25,
+                "growthRatio": 0.4000000059604645,
+                "pumpRatio": 0.699999988079071,
+                "mainMusclePumpMix": 0.4000000059604645
+            },
+            {
+                "muscleGroup": 29,
+                "sideOfBody": 1,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.10000000149011612,
+                "mainMusclePumpMix": 0.5
+            },
+            {
+                "muscleGroup": 30,
+                "sideOfBody": 2,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.10000000149011612,
+                "mainMusclePumpMix": 0.5
+            },
+            {
+                "muscleGroup": 27,
+                "sideOfBody": 1,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.10000000149011612,
+                "mainMusclePumpMix": 0.5
+            },
+            {
+                "muscleGroup": 28,
+                "sideOfBody": 2,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.10000000149011612,
+                "mainMusclePumpMix": 0.5
+            },
+            {
+                "muscleGroup": 25,
+                "sideOfBody": 1,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.10000000149011612,
+                "mainMusclePumpMix": 0.4699999988079071
+            },
+            {
+                "muscleGroup": 26,
+                "sideOfBody": 2,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.10000000149011612,
+                "mainMusclePumpMix": 0.4699999988079071
+            },
+            {
+                "muscleGroup": 23,
+                "sideOfBody": 1,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.10000000149011612,
+                "mainMusclePumpMix": 0.44999998807907107
+            },
+            {
+                "muscleGroup": 24,
+                "sideOfBody": 2,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.10000000149011612,
+                "mainMusclePumpMix": 0.44999998807907107
+            },
+            {
+                "muscleGroup": 32,
+                "sideOfBody": 1,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.10499999672174454,
+                "mainMusclePumpMix": 0.5
+            },
+            {
+                "muscleGroup": 33,
+                "sideOfBody": 2,
+                "liftRatio": 0.0,
+                "growthRatio": 0.0,
+                "pumpRatio": 0.10499999672174454,
+                "mainMusclePumpMix": 0.5
+            }
+        ],
+        "overrideBodyWeightSettings": {
+            "doOverride": false
+        },
+        "bodyWeightSettings": {
+            "baseBodyWeightMultiplier": 1.0,
+            "onlyTargetMusclesInArray": false,
+            "weightedMuscleGroups": [],
+            "excludedMuscleGroups": []
+        }
+    }
+}
