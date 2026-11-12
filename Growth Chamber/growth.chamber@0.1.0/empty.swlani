@@ -1,0 +1,28 @@
+{
+    "contentInfo": {
+        "name": "empty",
+        "author": "",
+        "creationDate": "03/08/2026",
+        "lastEditDate": "03/08/2026",
+        "description": ""
+    },
+    "framesPerSecond": 30,
+    "timeCurve": {
+        "name": "",
+        "keyframes": [],
+        "keyframeStates": {
+            "preWrapMode": 0,
+            "postWrapMode": 0,
+            "keyframes": [],
+            "selectedKeys": []
+        }
+    },
+    "transformLinearCurves": [],
+    "transformCurves": [],
+    "jobCurveSampleRate": 16,
+    "propertyLinearCurves": [],
+    "propertyCurves": [],
+    "transformAnimationCurves": [],
+    "propertyAnimationCurves": [],
+    "events": []
+}
