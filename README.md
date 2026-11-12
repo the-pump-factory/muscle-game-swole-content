@@ -1,0 +1,1 @@
+*Clone this repository into a new folder located under 'C:/Users/<WINDOWS_USER>/AppData/LocalLow/NULL Life/Bulk Out/swole/packages/local'  (**Replace <WINDOWS_USER> with your user. Path will be different for non-windows platforms.**)*
